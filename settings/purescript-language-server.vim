@@ -11,8 +11,8 @@ augroup vim_lsp_settings_purescript_language_server
       \ 'workspace_config': lsp_settings#get('purescript-language-server', 'workspace_config', {
           \'purescript.addSpagoSources': v:true,
           \'purescript.codegenTargets': [ 'corefn' ],
-          \'purescript.buildCommand': 'spago build --purs-args --json-errors'
-      }),
+          \'purescript.buildCommand': 'spago build --purs-args --json-errors',
+    \ }),
       \ 'semantic_highlight': lsp_settings#get('purescript-language-server', 'semantic_highlight', {}),
       \ }
 augroup END
