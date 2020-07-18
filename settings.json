@@ -712,7 +712,7 @@
   "purescript": [
     {
       "command": "purescript-language-server",
-      "requires": [],
+      "requires": [ "npm" ],
       "root_uri_patterns": [
         "spago.dhall",
         "packages.dhall",
