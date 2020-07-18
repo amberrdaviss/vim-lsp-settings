@@ -714,7 +714,9 @@
       "command": "purescript-language-server",
       "requires": [],
       "root_uri_patterns": [
-        "spago.dhall"
+        "spago.dhall",
+        "packages.dhall",
+        "psc-package.json"
       ]
     }
   ],
