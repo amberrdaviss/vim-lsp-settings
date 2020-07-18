@@ -709,6 +709,17 @@
       ]
     }
   ],
+  "purescript": [
+    {
+      "command": "purescript-language-server",
+      "requires": [
+        "npm"
+      ],
+      "root_uri_patterns": [
+        "spago.dhall"
+      ]
+    }
+  ],
   "typescript": [
     {
       "command": "typescript-language-server",
