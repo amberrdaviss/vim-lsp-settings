@@ -715,7 +715,6 @@
       "requires": [ "npm" ],
       "root_uri_patterns": [
         "spago.dhall",
-        "packages.dhall",
         "psc-package.json"
       ]
     }
